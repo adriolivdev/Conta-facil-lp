@@ -1,0 +1,102 @@
+<!--
+  Arquivo: index.html
+  Projeto: Landing Page “Conta Fácil”
+  Função: documento raíz servido pelo Vite. Contém metadados de SEO,
+  marcação de Open Graph / Twitter, favicon e espaço reservado a scripts
+  de rastreamento (Pixel/Analytics).
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- ===== CONFIGURAÇÕES BÁSICAS ===== -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport responsiva -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- ===== SEO PRIMÁRIO ===== -->
+    <title>Conta Fácil | Contabilidade Digital que Simplifica sua Empresa</title>
+    <meta
+      name="description"
+      content="Contabilidade online para PMEs: reduza impostos, ganhe tempo e foque no crescimento. Consultoria gratuita!"
+    />
+    <meta
+      name="keywords"
+      content="contabilidade online, contabilidade digital, serviços contábeis, gestão fiscal, Conta Fácil"
+    />
+    <link rel="canonical" href="https://www.contafacil.com.br/" />
+
+    <!-- Evita indexação de ambientes de homologação; remova em produção se necessário -->
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+
+    <!-- ===== METADADOS SOCIAIS (Open Graph) ===== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.contafacil.com.br/" />
+    <meta
+      property="og:title"
+      content="Conta Fácil | Contabilidade Digital que Simplifica sua Empresa"
+    />
+    <meta
+      property="og:description"
+      content="Contabilidade online para PMEs: reduza impostos, ganhe tempo e foque no crescimento."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- ===== METADADOS TWITTER CARDS ===== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@contafacil" />
+    <meta
+      name="twitter:title"
+      content="Conta Fácil | Contabilidade Digital que Simplifica sua Empresa"
+    />
+    <meta
+      name="twitter:description"
+      content="Contabilidade online para PMEs: reduza impostos, ganhe tempo e foque no crescimento."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- ===== FAVICONS & TEMA ===== -->
+    <link rel="icon" type="image/svg+xml" href="/logo/logo.png" />
+    <meta name="theme-color" content="#1E3A8A" />
+
+    <!-- ===== ESTRUTURAÇÃO DE DADOS (JSON-LD) opcional =====
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AccountingService",
+        "name": "Conta Fácil",
+        "url": "https://www.contafacil.com.br",
+        "logo": "https://www.contafacil.com.br/logo.png",
+        "sameAs": [
+          "https://www.facebook.com/contafacil",
+          "https://www.instagram.com/contafacil"
+        ],
+        "areaServed": "BR",
+        "foundingDate": "2013"
+      }
+    </script>
+    ===================================================== -->
+
+    <!-- ===== ESPAÇO PARA PIXEL / ANALYTICS ===== -->
+    <!--
+      Cole aqui o código do seu Facebook Pixel, Google Analytics (gtag),
+      Hotjar ou qualquer outro script de rastreamento.
+      Mantenha os comentários para facilitar manutenções futuras.
+    -->
+    <!-- PIXEL_PLACEHOLDER_START -->
+    <!--    <script> ... </script>    -->
+    <!-- PIXEL_PLACEHOLDER_END -->
+  </head>
+
+  <body class="bg-gray-50 text-gray-900 antialiased">
+    <!-- O React montará o app dentro desta div -->
+    <div id="root"></div>
+
+    <!-- Script principal gerado pelo Vite -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
