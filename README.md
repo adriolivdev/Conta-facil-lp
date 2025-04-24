@@ -3,7 +3,8 @@
 Landing page responsiva e otimizada para conversão de uma empresa contábil fictícia chamada **Conta Fácil**.  
 Construída com **Vite + React + TypeScript + Tailwind CSS 3.3.2**.
 
-![Screenshot](./public/cover.png)
+![image](https://github.com/user-attachments/assets/6840b1d9-756a-424c-9524-f84dcf505aaf)
+
 
 ---
 
